@@ -5,5 +5,7 @@
     <string name="editText2">請輸入身高(cm):</string>
     <string name="editText3">請輸入體重(kg):</string>
     <string name="button">計算</string>
-    <string name="textMessage">你的 BMI:</string>
+    <string name="Hello">你好</string>
+    <string name="BMI">您的 BMI 是</string>
+    <string name="textView">計算結果:</string>
 </resources>

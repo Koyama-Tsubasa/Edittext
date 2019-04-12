@@ -4,5 +4,7 @@
     <string name="editText2" >height:</string>
     <string name="editText3" >weight:</string>
     <string name="button" >calculate</string>
-    <string name="textMessage" >your BMI:</string>
+    <string name="Hello">Hello</string>
+    <string name="BMI">your BMI is</string>
+    <string name="textView">calculate result:</string>
 </resources>

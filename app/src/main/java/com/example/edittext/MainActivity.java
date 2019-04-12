@@ -31,15 +31,16 @@ public class MainActivity extends AppCompatActivity {
         ed3 = findViewById(R.id.editText3);
         txv = findViewById(R.id.textView);
 
+
         float height = Float.parseFloat(ed2.getText().toString());
         float weight = Float.parseFloat(ed3.getText().toString());
         float BMI1 = calculateBMI(height, weight);
         String BMI2 = String.valueOf(BMI1);
 
         txv.setTextSize(size);
-        txv.setText(ed1.getText().toString() +
-                "Hello" + ",\n" +
-                "your BMI is" +
+        txv.setText(getResources().getString(R.string.Hello) + " , " +
+                ed1.getText().toString() + " \n " +
+                getResources().getString(R.string.BMI) +
                 BMI2);
 
         Toast.makeText(this, standardBMI(BMI1), Toast.LENGTH_LONG).show();
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
             alert = String.valueOf("Your body is good!");
+            getWindow().setBackgroundDrawableResource(R.drawable.cat);
 
         }
 
